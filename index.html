@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/dist/css/styles.css" rel="stylesheet" />
+
+		<style>
+			.from-primary {
+				--tw-gradient-from: #1d99ac;
+				--tw-gradient-stops: var(--tw-gradient-from),
+					var(--tw-gradient-to, rgba(34, 211, 238, 0));
+			}
+
+			.to-secondary {
+				--tw-gradient-to: #309e76;
+			}
+
+			.servicesImageHeight {
+				height: 220px;
+				margin: auto;
+			}
+		</style>
+		<title>Test</title>
+	</head>
+	<body class="antialiased relative text-gray-600">
+		<div class="absolute w-full min-h-screen">
+			<div
+				class="
+					absolute
+					z-0
+					top-0
+					w-full
+					h-1/2
+					bg-cover bg-bottom
+					pt-20
+					px-12
+				"
+				style="background-image: url(./04-chiron-dynamic-front-web.jpg)"
+			></div>
+			<div
+				class="
+					absolute
+					z-20
+					bottom-10
+					right-0
+					left-0
+					inline-flex
+					space-x-20
+					justify-center
+					font-bold
+					uppercase
+				"
+			>
+				<a href="#services" class="text-cyan-600">Services</a>
+				<a href="#work" class="text-cyan-600">Work</a
+				><a href="#contact" class="text-cyan-600">Contact</a>
+			</div>
+		</div>
+		<div
+			class="
+				relative
+				z-10
+				flex
+				min-h-screen
+				h-auto
+				justify-center
+				items-center
+			"
+		>
+			<div class="relative max-w-4xl">
+				<div
+					class="
+						absolute
+						z-10
+						inset-0
+						bg-gradient-to-r
+						from-primary
+						to-secondary
+						shadow-lg
+						transform
+						skew-y-6
+						sm:skew-y-0 sm:-rotate-6 sm:rounded-lg
+					"
+				></div>
+				<div
+					class="
+						relative
+						z-20
+						bg-white
+						md:flex
+						justify-between
+						p-12
+						shadow-lg
+						rounded-lg
+						w-full
+						max-w-4xl
+					"
+				>
+					<div
+						class="
+							sm:flex
+							flex-col
+							justify-between
+							space-y-6
+							py-6
+							md:pr-10
+						"
+					>
+						<div class="z-22">
+							<h2 class="text-lg">Hello I am</h2>
+							<h1 class="pt-1 text-5xl font-bold text-gray-800">
+								Alex Jenson
+							</h1>
+						</div>
+						<p class="text-xl leading-relaxed">
+							Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit. Magnam adipisci doloremque nemo maiores. Ex
+							laborum nostrum dolore libero dicta voluptas?
+						</p>
+					</div>
+					<img
+						src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/34217-MLS-Fabian-Ekker-003flin.jpg"
+						alt="profile picture"
+						class="
+							w-80
+							rounded-full
+							flex-shrink-0
+							border-6 border-white
+							shadow-md
+						"
+					/>
+				</div>
+			</div>
+		</div>
+		<section id="services" class="bg-gray-50 pt-20 pb-28 px-8">
+			<div class="max-w-6xl mx-auto">
+				<div class="text-center">
+					<h1 class="text-6xl text-gray-800">Services</h1>
+					<p class="pt-2">Here is what I offer</p>
+				</div>
+				<div
+					class="
+						mt-24
+						grid grid-cols-1
+						md:grid-cols-2
+						lg:grid-cols-3
+						gap-20
+					"
+				>
+					<div class="relative">
+						<div
+							class="
+								absolute
+								z-10
+								inset-0
+								bg-gradient-to-r
+								from-primary
+								to-secondary
+								shadow-lg
+								transform
+								-skew-y-6
+								sm:skey-y-0 sm:-rotate-6 sm:rounded-lg
+							"
+						></div>
+						<div
+							class="
+								relative
+								z-20
+								bg-white
+								h-full
+								rounded-md
+								shadow-md
+							"
+						>
+							<img
+								src="https://www.rouge-media.com/wp-content/uploads/2019/05/web-app-illustration-1.png"
+								class="rounded-t-md servicesImageHeight"
+								alt=""
+							/>
+							<div class="px-10 pb-6">
+								<h2
+									class="
+										pt-3
+										font-bold
+										text-gray-800 text-2xl
+									"
+								>
+									Responsive Websites
+								</h2>
+								<p class="pt-3">
+									Lorem ipsum dolor sit amet consectetur,
+									adipisicing elit. Corporis dolorum
+									voluptatum perspiciatis error sequi quaerat
+									eaque cupiditate beatae provident quasi!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="relative">
+						<div
+							class="
+								absolute
+								z-10
+								inset-0
+								bg-gradient-to-r
+								from-primary
+								to-secondary
+								shadow-lg
+								transform
+								-skew-y-6
+								sm:skey-y-0 sm:-rotate-6 sm:rounded-lg
+							"
+						></div>
+						<div
+							class="
+								relative
+								z-20
+								bg-white
+								h-full
+								rounded-md
+								shadow-md
+							"
+						>
+							<img
+								src="https://wichitawebdev.com/lmg-cms/wp-content/uploads/2018/06/pwa-reliable.png
+								"
+								class="
+									bg-blue-300
+									rounded-t-md
+									servicesImageHeight
+								"
+								alt=""
+							/>
+							<div class="px-10 pb-6">
+								<h2
+									class="
+										pt-3
+										font-bold
+										text-gray-800 text-2xl
+									"
+								>
+									Web Apps
+								</h2>
+								<p class="pt-3">
+									Lorem ipsum dolor sit amet consectetur,
+									adipisicing elit. Corporis dolorum
+									voluptatum perspiciatis error sequi quaerat
+									eaque cupiditate beatae provident quasi!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="relative">
+						<div
+							class="
+								absolute
+								z-10
+								inset-0
+								bg-gradient-to-r
+								from-primary
+								to-secondary
+								shadow-lg
+								transform
+								-skew-y-6
+								sm:skey-y-0 sm:-rotate-6 sm:rounded-lg
+							"
+						></div>
+						<div
+							class="
+								relative
+								z-20
+								bg-white
+								h-full
+								rounded-md
+								shadow-md
+							"
+						>
+							<img
+								src="https://nyc3.digitaloceanspaces.com/endive/2020/03/27175931/Importance-Of-Using-The-iOS-Platform-For-Your-Business-App-1140x694.jpg"
+								class="rounded-t-md servicesImageHeight"
+								alt=""
+							/>
+							<div class="px-10 pb-6">
+								<h2
+									class="
+										pt-3
+										font-bold
+										text-gray-800 text-2xl
+									"
+								>
+									Mobile Apps
+								</h2>
+								<p class="pt-3">
+									Lorem ipsum dolor sit amet consectetur,
+									adipisicing elit. Corporis dolorum
+									voluptatum perspiciatis error sequi quaerat
+									eaque cupiditate beatae provident quasi!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="work" class="py-20 px-8">
+			<div class="max-w-6xl mx-auto">
+				<div class="text-center">
+					<h1 class="text-6xl font-bold text-gray-700">Work</h1>
+					<p class="pt-2 text-xl">Here is my portfolio.</p>
+				</div>
+				<div
+					class="
+						grid
+						mt-16
+						grid-cols-1
+						md:grid-cols-2
+						lg:grid-cols-3
+						gap-14
+					"
+				>
+					<div class="bg-white rounded-md shadow-md lg:col-span-2">
+						<img
+							class="object-cover w-full h-80 rounded-t-md"
+							src="https://slickdeals.net/blog/wp-content/uploads/2020/03/20-hero-dell-remote-work-3.jpg"
+						/>
+						<div class="p-8">
+							<h3 class="text-2xl font-bold text-gray-800">
+								Work Title
+							</h3>
+							<p class="pt-3">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Unde et officiis blanditiis
+								voluptate veniam eaque facilis incidunt
+								voluptatum ea fugiat.
+							</p>
+							<a
+								href=""
+								class="
+									inline-block
+									mt-4
+									px-6
+									py-2
+									bg-gradient-to-r
+									from-primary
+									to-secondary
+									rounded-md
+									shadow-md
+									text-white
+									font-bold
+									text-sm
+								"
+								>View more</a
+							>
+						</div>
+					</div>
+					<div class="bg-white rounded-md shadow-md">
+						<img
+							class="object-cover w-full h-80 rounded-t-md"
+							src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Paperless_work_desk_with_an_iPad%2C_iMac_and_a_MacBook.jpg
+							"
+						/>
+						<div class="p-8">
+							<h3 class="text-2xl font-bold text-gray-800">
+								Work Title
+							</h3>
+							<p class="pt-3">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Unde et officiis blanditiis
+								voluptate veniam eaque facilis incidunt
+								voluptatum ea fugiat.
+							</p>
+							<a
+								href=""
+								class="
+									inline-block
+									mt-4
+									px-6
+									py-2
+									bg-gradient-to-r
+									from-primary
+									to-secondary
+									rounded-md
+									shadow-md
+									text-white
+									font-bold
+									text-sm
+								"
+								>View more</a
+							>
+						</div>
+					</div>
+					<div class="bg-white rounded-md shadow-md">
+						<img
+							class="object-cover w-full h-80 rounded-t-md"
+							src="https://api.time.com/wp-content/uploads/2021/02/laptop-home-office.jpg
+
+							"
+						/>
+						<div class="p-8">
+							<h3 class="text-2xl font-bold text-gray-800">
+								Work Title
+							</h3>
+							<p class="pt-3">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Unde et officiis blanditiis
+								voluptate veniam eaque facilis incidunt
+								voluptatum ea fugiat.
+							</p>
+							<a
+								href=""
+								class="
+									inline-block
+									mt-4
+									px-6
+									py-2
+									bg-gradient-to-r
+									from-primary
+									to-secondary
+									rounded-md
+									shadow-md
+									text-white
+									font-bold
+									text-sm
+								"
+								>View more</a
+							>
+						</div>
+					</div>
+					<div class="bg-white rounded-md shadow-md lg:col-span-2">
+						<img
+							class="object-cover w-full h-80 rounded-t-md"
+							src="https://hbr.org/resources/images/article_assets/2014/10/Mar20_05_1187745190.jpg"
+						/>
+						<div class="p-8">
+							<h3 class="text-2xl font-bold text-gray-800">
+								Work Title
+							</h3>
+							<p class="pt-3">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Unde et officiis blanditiis
+								voluptate veniam eaque facilis incidunt
+								voluptatum ea fugiat.
+							</p>
+							<a
+								href=""
+								class="
+									inline-block
+									mt-4
+									px-6
+									py-2
+									bg-gradient-to-r
+									from-primary
+									to-secondary
+									rounded-md
+									shadow-md
+									text-white
+									font-bold
+									text-sm
+								"
+								>View more</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="pt-20 pb-36 px-8 bg-gray-50">
+			<div class="w-max-6xl mx-auto">
+				<div class="text-center">
+					<h1 class="text-6xl font-bold text-gray-600">Contact</h1>
+					<p class="pt-2 text-xl">Get in touch with me</p>
+				</div>
+			</div>
+			<div class="mt-16 relative max-w-4xl mx-auto">
+				<div
+					class="
+						absolute
+						z-10
+						inset-0
+						bg-gradient-to-r
+						from-primary
+						to-secondary
+						shadow-lg
+						transform
+						-skew-y-6
+						sm:skew-y-0 sm:-rotate-6 sm:rounded-lg
+					"
+				></div>
+				<div class="relative z-20 bg-white rounded-md shadow-md p-12">
+					<form action="">
+						<div
+							class="
+								grid grid-cols-1
+								md:grid-cols-2
+								gap-x-8 gap-y-6
+							"
+						>
+							<input
+								type="text"
+								placeholder="Name"
+								class="
+									border border-gray-200
+									outline-none
+									px-4
+									py-2
+									rounded-md
+									hover:border-gray-400
+									focus:border-gray-600
+								"
+							/>
+							<input
+								type="text"
+								placeholder="Email"
+								class="
+									border border-gray-200
+									outline-none
+									px-4
+									py-2
+									rounded-md
+									hover:border-gray-400
+									focus:border-gray-600
+								"
+							/>
+							<input
+								type="text"
+								placeholder="Subject"
+								class="
+									border border-gray-200
+									outline-none
+									px-4
+									py-2
+									rounded-md
+									md:col-span-2
+									hover:border-gray-400
+									focus:border-gray-600
+								"
+							/>
+							<textarea
+								name=""
+								id=""
+								cols="30"
+								rows="5"
+								placeholder="message"
+								class="
+									border border-gray-200
+									outline-none
+									px-4
+									py-2
+									rounded-md
+									col-span-2
+									hover:border-gray-400
+									focus:border-gray-600
+								"
+							></textarea>
+						</div>
+
+						<button
+							class="
+								inline-block
+								w-auto
+								mt-4
+								px-6
+								py-2
+								bg-gradient-to-r
+								from-primary
+								to-secondary
+								rounded-md
+								shadow-md
+								text-white
+								font-bold
+								text-sm
+							"
+						>
+							Send Message
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
